@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>imagens adaptaveis</title>
+   
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir o site em varios dispositivos</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/caio-p1.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/caio-m1.png" type="image/png">
+    <img src="imagens/caio-g1.png" alt="imagem flexivel">
+</picture> 
+
+<h1>reproduzindo audios</h1>
+
+<p>vamos tocar um audio</p>
+<audio src="campainha.mp3" autoplay controls ></audio>
+<p>modo complexo de codigo</p>
+<audio preload="metadata" >
+    <source src="campainha.mp3" type="audio/mpeg">
+    <source src="campainha.mp3" type="audio/ogg">
+    <source src="audiogav.mp3" type="audio/wave">
+    <p>infelizmente seu navegador nao consegue reproduzir audio, por favor baixe aqui: <a href="audiogav.mp3">audio</a></p>
+</audio>
+
+<h1>Videos de hospedagem interna</h1>
+<p>vamos reproduzir videos</p>
+<video controls width="500" preload="metadata " poster="imagens/caio-g1.png" autoplay loop>
+        <source src="midias/mp4.mp4"  type="video/mp4">
+        <source src="midias/m4v.m4v"   type="video/mp4">
+        <p>seu navegador n possui compatibilidade por favor baixe <a href="midias/mp4.mp4">aqui</a></p>
+        <!--É burrice usar hospedagem propria pois consume dms a banda gerando alto custo de hospedagem-->
+</video>
+<h1>Video de hospedagem externa</h1>
+<p>youtube:</p>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/zrIfhUVB_3o"  
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+ allowfullscreen type="metadata"></iframe>
+
+
+</body>
+</html>

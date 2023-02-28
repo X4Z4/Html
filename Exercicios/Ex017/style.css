@@ -1,0 +1,49 @@
+
+body{
+    font-family:'work sans'Verdana, Geneva, Tahoma, sans-serif,monospace;
+    font-size: 16px ;
+    font-weight: lighter ;
+    font-style: italic;
+    text-decoration: underliner;
+    /*medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    medidas relativas
+    em, ex, rem, vw, vh, %¨
+
+    recomendação da W3C é usar px e o em
+
+    1em = 16px
+
+    font-weight(peso) = fonte mais magra ou mais cheinha
+    font-style = para normal ou italico ou negrito e italico
+    text-decoration = para sublinhado
+    
+    pesos literais: lighter,normal,bold,bolder
+    
+    pesos numericos: 100 ao 900
+    obs:da para trabalhar usando o style e o peso ao mesmo tempo, so tem que ver se a font suporta
+
+    shorthand que usa todos
+    -font-style-> font-weight -> font-size ->font-family
+
+
+    */   
+}
+
+h1{
+    
+    /*font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 2em;
+    font-style: italic;
+    text-decoration: underline;
+     -font-style-> font-weight -> font-size ->font-family*/
+    font: italic bolder 3em sans-serif ;
+}
+h2{
+    font: bold 2em arial
+  
+}
+p{
+    font: lighter 1em arial;
+}

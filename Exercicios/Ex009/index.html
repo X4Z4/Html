@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    type das listas A,1,I,i
+    <br>
+    A-vai lista em abc <br>
+    1-vai lista de 1 2 3 4 5 <br>
+    I-a lista vai em romanos maiusculos <br>
+    i-vai em minusculo de romanos
+    <ol type="I"> 
+        <li>acordar</li>
+        <li>escovar os dentes</li>
+        <li>ir para a faculdade</li>
+        <li>ligar para o joao</li>
+        <li>almoçar</li>
+    </ol> ol significa order list
+    <h2>listas desordenadas</h2> para isso usamos a tag ul de unorder list
+    existem 3 type de ul que são circle,square e disc
+    <ul type="circle">
+        <li>acordar</li>
+        <li>escovar os dentes</li>
+        <li>ir para a faculdade</li>
+        <li>ligar para o joao</li>
+        <li>almoçar</li>
+    </ul>    
+
+    <h2>juntando listas</h2>
+    <ol type="A">
+        <h3><li>Gosto</li></h3>
+        <ol type="a">
+            <li>carnes</li>
+            <li>queijos</li>
+            <li>bebidas</li>
+        </ol>
+
+        <h3><li>Não Gosto</li></h3>
+        <ol type="a" start="4">
+            <li>vegetais</li>
+            <li>frutas</li>
+        </ol>
+    </ol>
+    <!--o parametro start tem que ser numerico mesmo que a lista seja alfanumerica-->
+
+<ol>
+    <h2>Meus jogos favoritos</h2>
+    <li>Wii</li>
+    <ul type="square">
+        <li>mario super strike</li>
+        <li>mario kart</li>
+        <li>kirby epic yarn</li>
+        <li>wii sport resort</li>
+    </ul>
+    <li>PS4</li>
+    <ul type="square">
+        <li>beyond two souls</li>
+        <li>God of war:</li>
+            <ul type="disc">
+                <li>God of war 3</li>
+                <li>God of war 4</li>
+            </ul>
+        <li>Fall guys</li>
+        </ul>
+</ol>
+<h2>listas de definições</h2>
+<dl>
+    <dt>Html</dt><br><dd>parte escrita do site</dd>
+    <dt>Css</dt><br><dd>parte visual do site</dd>
+    <dt>JavaScript</dt> <br><dd>parte de interatividade do site</dd>
+</dl>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark{background-color: rgb(160, 177, 63);
+
+        }
+     
+    </style>
+    <title>Principais formatações</title>
+</head>
+<body>
+    <h1>Em html existem varias formatações e regras semanticas, aqui vão algumas delas<br>&#x1F604; </h1>
+<h2>-Hierarquia de titulos</h2>
+<p>Para saber mais sobre aperte <a href="pg2.html"> aqui</a></p>
+
+<h2>-Favicons</h2>
+<p>Para saber mais sobre aperte <a href="pg3.html"> aqui</a></p>
+<h2>-Quebra <br>  de  <br> linha</h2>
+
+<h2>-Tipos de imagens </h2>
+    <p>os tipos de imagens que são interessantes de ser usar em um site são: jpeg e png, sendo que o png, cria imagens marios mas com fundo transparente
+        e o jpeg, cria imagens com maior compactação mas com menor qualidade e que não podem ficar com fundo transparente.
+        o comando utilizado para colocar imagens em um site é (img src="" alt=""), onde src é onde se encontra o arquivo e 
+        o alt é o que sera escrito na tela caso a imagem não seja carregada
+    </p>
+    <p>Vale citar que existem 3 jeitos de adicionar uma imagem a um site, sendo elas :
+        <p>
+            1-puxar a imagem da mesma onde se encontra o index.html </p>
+        <p>
+            2-puxa de dentro de uma subpasta do index</p>
+        <p>
+            3-puxar de um site de dentro da internet usando (img src="" alt="") e dentro do img vc põe endereço da imagem</p>
+        exemplo pratico 
+        <p><img src="ultron300.jpg" alt=""></p>
+    
+<h2>-<b>Negrito</b></h2>
+    <p>Para deixarmos algum termo em <mark><b>negrito</b> usamos a tag b</mark> mas a tag b é sem semantica, tem apenas forma 
+        se quiser ser semantica usamos a tag <mark><strong> strong </strong></mark> pois significa que na frase esse termo é forte
+    </p>
+<h2>-<em>Italico</em></h2>
+    <p>para deixarmos um termo em <i>italico</i>, podemos usar a tag i so que ele fica so com a forma mas sem a semantica
+    para darmos a semantica usamos a <i>tecla crtl shit p</i> e clicarmos em wrap with abreviation</p>    
+    <p>para dar enfase usamos a <mark style="background-color:greenyellow"><em>tag EM para gerarmos enfase</em></mark> e criarmos o italico</p>
+    <mark>obs: a tag i apenas da forma mas n é semantica, e a tag EM é semantica e da forma</mark>
+<h2>-<mark>Texto marcado</mark></h2>
+    <p>Podemos criar tambem <mark >um texto marcado</mark> criando a tag mark</p>
+    <p>como podemos ver, os <mark>marks subsequentes não herdam as caracteristicas</mark> se nao criarmos o seletor la na parte de head do html ou no css </p>
+
+<h2>-Textos grandes e <small>pequeno</small>s</h2>
+    <p>Podemos criar textos grandes e pequenos usando tags, para grandes usamos o css para formatação e para pequenos usamos <small>small</small></p>
+
+<h2>-<del>Texto deletado</del> e <ins>texto inserido</ins>
+e <u>sublinhado</u></h2>
+<p>podemos marcar um <del> texto como excluido</del>, que significa que ele deve ser lido mas desconsiderado e o <ins>texto inserido</ins> serve pra dar enfazer que ele foi colocado dps
+e para sublinhar um texto usamos a tag <u>u</u></p>
+<h2>Texto sobrescrito e subscrito </h2>
+<p>texto sobrescrito serve normalmente para formulas matematicas como <mark>x<sup>20</sup>+3</mark></p> e o texto subscrito serve normalmente para formulas quimicas <mark>H<sub>2</sub>O</mark>
+<h2>-Codigo fonte</h2>
+<p>o comando<code> document.getElementById('teste')</code> é escrito com uma linguagem chamada javascript <br> o <mark>comando code serve para definir que uma linha(string) é considerada um codigo de computador</mark> </p>
+<p>se o texto do seu code ficar tudo na mesma linha e vc nao gostar, você pode criar uma tag antes do code chamada <mark>pre</mark> assim você consegue fazer com que fique melhor separado se for apertado shift tab com o texto selecionado vc consegue o deslocar para a esquerda e so o tab for apertado vc desloca pra direita</p>
+<pre>
+<code>n=input('me diga um numero')
+if n > 6
+print('boa mlk')
+if n < 6
+print('melhor ainda')
+</code>
+</pre>
+<h2>-Citações simples</h2>
+<p>A tag<mark> q </mark>é para colocar o texto entre aspas servindo para fazer citações simples</p>
+<p><q>o computador é um burro muito rapido</q></p>
+
+<h2>-Citações completas</h2>
+<p>a sitação completa pode ser demonstrada utilizando uma tag blockquote que faz com que a citação fique melhor encaixada e podemos usar depois do blockquote o cite='' e colocar o link que referencia aquela sitação</p>
+<p>segundo jeff noble no seu livro html para leigos:</p>
+<blockquote cite="link">
+    a diferença entre elementos inline e blocos de texto descrevem os mesmos
+</blockquote>
+<h2>Abreviações</h2>
+<p>usando a tag abbr podemos explica o que significa a sigla</p>
+<p>estou estudando <abbr title="hyper text language">html</abbr> e estou adorando </p>
+<h2>-Texto invertido</h2>
+<p><bdo dir="rtl">estou aprendendo a criar coisas em html</bdo></p>
+
+<h2>-Ancaoragem de links</h2>
+<p><p>vc pode acessar links externos atraves do html <a href="https://www.youtube.com" target="_blank" rel="external">assim</a></p>
+obs:quando for link externo é aconselhado fazer isso target_blanc rell=external, senão você acaba sobre escrevendo sua pagina e fica assim
+<p><a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-10-aula-1-links-e-ancoras-em-html5/">fica assim oh</a></p>
+
+<h2>-Imagens interativas</h2>
+<p>para criamos imagens que se moldam ao tamanho da tela, usamos a tag picture e la configuramos usando o sorce <a href="pg5.html" ref="next">assim</a></p>
+
+<li><a href="pg2.html">2</a></li>
+<li><a href="pg3.html" rel="next">3</a></li>
+<li><a href="pg4.html" rel="next">4</a></li>
+<li><a href="pg5.html" rel="next">5</a></li>
+</body>
+
+</html>

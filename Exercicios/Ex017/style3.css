@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'crafty' ;
+    src: url('fonts/craftynote.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2{
+    font-size: 2em ;
+    font-family: 'crafty',Arial, Helvetica, sans-serif ;
+    font-weight: lighter;
+    font-style: normal; 
+}
+p{
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+}

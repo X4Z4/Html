@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body{
+    font-family:'Kdam Thmor Pro';
+    font-weight:bold ;
+    font-style:italic ;
+    font-size: 2em;
+}
+p{
+    font-family: 'Abril Fatface';
+    font-weight: lighter;
+    font-size: 1em;
+}
+

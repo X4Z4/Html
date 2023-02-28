@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+    font-size:medium ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: lighter;
+    font-style: normal ;
+    text-align: left ;
+   background-color: #B00096;}
+p{
+    text-align: justify;
+    text-indent: 32px ;
+    font-weight: bolder;
+}
+h1{
+   
+    color:#D638A4;
+
+}
+h2{
+    text-align: justify;
+    color: #F03EB8;
+}
+#principal{
+    color: #FC00D7;
+    text-align: center;
+    background-color: #70005F;
+}
+.basico{
+    color: chocolate;
+    text-align: justify;
+    background-color:green;
+    
+}
+.avançado{
+    color: tomato;
+    text-align: justify;
+    background-color: yellow;
+
+}
+
+
+
+/* 
+em css a id vira #
+em css a class vira .
+id é unico
+class pode existir muitos
+*/

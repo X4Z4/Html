@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');)
+@font-face {
+    font-family:'crafty' ;
+    src: url('fonts/craftynote.ttf');
+}
+
+body{
+    font-size: 1em ;
+    font-family:'Indie Flower', cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+p{
+    text-align: justify,center;
+    text-indent: 2em;
+}
+
+/*o comando text align serve para dizer onde o texto ficara alinhado, left right center justify*/
